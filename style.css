@@ -1,0 +1,411 @@
+.navbar-nav {
+    margin: auto; /* Center align horizontally */
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:1000px){
+    .navbar-nav{
+        display: block;
+    }
+}
+
+
+.style {
+    position: absolute;
+    top: 75%;
+    left: 80%;
+    width: 200px;
+    height: 200px;
+    
+    
+}
+.ot{
+    background-color: rgb(	7,	22,	45);
+    width: 300px;
+    height: 200px;
+    color: rgb(	180	,180	,194);
+    padding: 20px;
+
+}
+.ot h1{
+    font-size: 70px;
+    
+}
+.ot p{
+    font-size: 20px;
+}
+
+
+.sap{
+   
+    background-image: linear-gradient(rgb(84, 164, 221),rgb(0, 107, 184));
+    width: 400px;
+    height: 250px;
+padding: 20px;
+color: white;
+}
+.sap img{
+    width: 180px;
+    padding-right: 20px;
+}
+.finance{
+    background-color: rgb(	7,	22,	45);
+    width: 300px;
+    height: 200px;
+    color: rgb(	180	,180	,194);
+    padding: 20px;
+font-size: 18px;
+font-weight: bold;
+}
+.finance img{
+    width: 150px;
+}
+.help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+}
+.service h1{
+    font-size: 150px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+    letter-spacing: 5px;
+}
+.service h1:hover{
+    color: black;
+}
+.text1{
+    bottom: 60px;
+    left: 200px;
+   
+}
+.service-1{
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid black;
+    padding-right: 30px;
+}
+
+.text1 h4{
+    color: rgb(0, 107, 184);
+    font-family: 	Brush Script MT;
+    font-size: 40px;
+}
+.text1 p{
+    font-weight: bold;
+}
+.text2{
+
+    bottom: 60px;
+    left: 70px;
+}
+.text2  p{
+    font-weight: bold;
+}
+.text2 li{
+    font-size: 15px;
+}
+@media screen and (max-width:1200){
+   .text2{
+ text-align: center;
+   }
+}
+
+.about{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.about .image{
+    width: 500px;
+}
+
+
+/* home  start*/
+
+
+.home{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-details button{
+    padding: 8px 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.home-details button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black ;
+}
+
+.home-div{
+    background-color: rgb(222, 221, 221);
+    width: 250px;
+    height: 300px;
+    border-radius: 20px;
+}
+.home-div p{
+    text-align: center;
+    padding-top: 90px;
+    font-size: 20px;
+    width: 250px;
+    font-weight: bold;
+   
+}
+.rate{
+    background-color: black;
+    border-radius: 20px;
+    width: 250px;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    color: white;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.rate button{
+    background-color:rgb(	220	,253,	120);
+    border-radius: 100px;
+    border: none;
+    padding: 5px 6px;
+}
+.rate p{
+    color: rgb(	131	,131	,131);
+}
+.image-div{
+    width: 300px;
+    height: 265px;
+    background-color: black;
+}
+.image-div img{
+    width: 100%;
+    height: 20vh;
+   
+}
+.experience span{
+color: rgb(83, 163, 255);
+font-weight: bold;
+}
+
+.loading{
+    width: 300px;
+    height: 10px;
+    border: 1px solid rgb(63, 149, 248);
+ border-radius: 10px;
+    
+}
+.loading .blue-loading{
+    width:200px;
+    height: 10px;
+    background-color: rgb(57, 142, 240);
+    border-radius: 10px;
+}
+.choose-image{
+    height: 500px;
+    background-color: rgb(246, 238, 238);
+    width: 500px;
+    border-radius: 300px;
+  
+}
+.choose{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choose-image img{
+    width: 400px;
+  
+    height: 400px;
+  
+   
+   
+}
+.case-studies .card img{
+    border-radius: 5px;
+}
+.case-studies .card .card-body{
+    background: transparent;
+    
+}
+ .card .card-body h3{
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline rgb(57, 142, 240) 2px;
+}
+.case-studies .card .card-body p{
+    font-size: 15px;
+}
+
+ .card .card-body h6{
+    font-size: 20px;
+}
+ .card .card-body a{
+    padding: 8px;
+    text-decoration: none;
+    background: rgb(239, 238, 238);
+    color: black;
+    border-radius: 5px;
+}
+.card1{
+    margin-top: 20px;
+}
+.card1 img{
+    width: 300px;
+   margin-left: 60px;
+}
+.image{
+   width: 416px; 
+   background-color: rgb(	242, 231, 225);
+}
+.image1{
+    background-color: rgb(	238, 241, 246)	;
+    width: 416px;
+}
+.image2{
+    background-color: rgb(	248, 232, 232);
+}
+.Services{
+    background: #f9f9f9;
+    margin-top: 50px;
+}
+ .card5{
+    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
+    border: none;
+    cursor: pointer;
+    height: 200px;
+    padding-top: 50px;
+}
+ .card5 i{
+    font-size: 80px;
+    text-align: center;
+    color: #ffa500;
+    margin-top: 20px;
+    padding-left: 140px;
+    
+}
+ .card5 .card-body1 h3{
+    font-weight: 600;
+    margin-left: 20px;
+}
+ /* .card5 .card-body1{
+    text-align: center;
+} */
+.card-body1 img{
+    width: 200px;
+   margin-left: 20px;
+    
+}
+.card-body1 p{
+    margin-top: 20px;
+    margin-left: 20px;
+
+   
+}
+.card-body1 .aws{
+   width: 100px; 
+   height:50px;
+   
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(57, 151, 239, 0.866);
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.card{
+    height:331.81;
+    width: 400px;
+}
+.card-comment{
+    height:331.81;
+    width: 400px;
+    background-color: rgba(169, 164, 164, 0.221);
+}
+.comments{
+    background-color: #76a2d442;
+}
+.overlap-graph{
+    top: -291px;
+position: absolute;
+left: -58px;
+padding: 15px 25px;
+width: auto;
+height: fit-content;
+background-color: #ffffff;
+border-radius: 10px;
+  }
+  .read-more{
+    padding: 8px;
+    text-decoration: none;
+    background: rgb(239, 238, 238);
+    color: black;
+    border-radius: 5px;
+  }
+  .news-blogs{
+    height: 80vh;
+    margin-top: 40px;
+  }
+  .news img{
+    width: 500px;
+    height: 300.79px;
+  }
+  .news h6{
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .blog1 button{
+font-size: 12px;
+background-color: rgba(131, 196, 246, 0.598);
+color: rgb(68, 68, 246);
+border: none;
+padding: 0px 10px;
+  }
+  .blog1 h6{
+    font-weight: bold;
+
+  }
+  .blog1 p{
+    font-size: 15px;
+  }
+  .blog1{
+ align-items: center;
+ gap: 10px;
+  }
+
+
+          .footer{
+            background-color: rgb(	7,	22,	45);
+            height: 50vh;
+            color: white;
+         padding-top: 150px;
+          }
+         .footer-widget a{
+            text-decoration: none;
+            color: white;
+            color: rgb(191, 191, 191);
+         }
+         .footer-widget li{
+            list-style: none;
+            
+           
+         }
+         .footer-about p{
+            font-size: 10px;
+            margin-top: 15px;
+         }
+         
